@@ -18,7 +18,7 @@
 Objective
 </b></a>
 
-The objective of project is classify mushrooms edible and non-edible category
+The objective of the project is to classify mushrooms into edible and poisonous categories
 using:
 
 1. Decision Tree 
@@ -31,6 +31,7 @@ using:
 <summary> <a name="data"><b style="font-size:20px">
 Data Summary and Preprocessing
 </b></a>
+</summary>
 
 The data is taken directly from the commonly used UCI Machine Learning
 Repository. [link](https://archive.ics.uci.edu/ml/datasets/mushroom)
@@ -44,7 +45,6 @@ the mushroom’s properties.
 2. Validation Set (pa3 val.csv): Includes 1625 rows. Each row obeys the same format given for the
 train set. This set will be used to see the performance of the models.
 
-</summary>
 </details>
 
 
