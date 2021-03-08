@@ -13,10 +13,10 @@
 - [Conclusion](#conclusion)
 
 <details open>
-<summary>
-<a name="obj"><b style="font-size:20px">
+<summary><a name="obj">
+<b style="font-size:20px">
 Objective
-</b></a>
+</b></a></summary>
 
 The objective of the project is to classify mushrooms into edible and poisonous categories
 using:
@@ -24,7 +24,7 @@ using:
 1. Decision Tree 
 2. Random Forest 
 3. Adaboost
-</summary>
+
 </details>
 
 <details>
@@ -54,13 +54,6 @@ train set. This set will be used to see the performance of the models.
 </b></a>
 </summary>
 
-</details>
-
-<details>
-<summary><a name="randforest"><b style="font-size:20px">
-2: Random Forest 
-</b></a>
-</summary>
 First, the tree was made with a depth of 2 which was used as a baseline to determine accuracy. 
 The depth 2 tree had a training accuracy of 0.953 and a validation accuracy of 0.964. 
 Interestingly, the validation accuracy was higher than the training accuracy, 
@@ -73,6 +66,14 @@ accurately based on the principle of measuring similarities with more features.
 After depth 5, 100% accuracy was obtained on training and validation data. Therefore,
 in the interest of keeping the trees as small as possible, 
 depth 6 was determined to be the best for accuracy.
+
+</details>
+
+<details>
+<summary><a name="randforest"><b style="font-size:20px">
+2: Random Forest 
+</b></a>
+</summary>
 
 </details>
 
