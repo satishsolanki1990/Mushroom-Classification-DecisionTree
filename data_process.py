@@ -8,6 +8,7 @@ def fileRead(fileName):
 
 	return data
 
+
 def changeData(data):
 
 	# Insert the class labels as the first column

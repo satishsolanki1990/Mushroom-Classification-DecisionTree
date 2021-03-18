@@ -22,11 +22,11 @@ if __name__ == '__main__':
 
 	while(1):
 
-		trainData = prep.fileRead('pa3_train.csv')	# Read Training Examples
+		trainData = prep.fileRead('train.csv')	# Read Training Examples
 		trainData = prep.changeData(trainData)
-		validData = prep.fileRead('pa3_val.csv')	# Read Validation Data
+		validData = prep.fileRead('val.csv')	# Read Validation Data
 		validData = prep.changeData(validData)
-		testData = prep.fileRead('pa3_test.csv')
+		testData = prep.fileRead('test.csv')
 		testData = prep.changeData(testData)
 
 		TrainingIterations = np.array([])
