@@ -26,8 +26,8 @@ if __name__ == '__main__':
 		trainData = prep.changeData(trainData)
 		validData = prep.fileRead('val.csv')	# Read Validation Data
 		validData = prep.changeData(validData)
-		testData = prep.fileRead('test.csv')
-		testData = prep.changeData(testData)
+		# testData = prep.fileRead('test.csv')
+		# testData = prep.changeData(testData)
 
 		TrainingIterations = np.array([])
 		ValidationIterations = np.array([])
@@ -56,10 +56,10 @@ if __name__ == '__main__':
 			print(valid_acc_list)
 			# ValidationIterations = np.append(maximum_Depth, valid_acc_list)
 
-			predicted_values = test_decision_tree(tree, testData, maximum_Depth)
-			print ("The sum is ",  np.sum (predicted_values ))
-			print("Decision tree predicted values: ", predicted_values)
-			np.savetxt("predicted_values.txt", predicted_values)
+			# predicted_values = test_decision_tree(tree, testData, maximum_Depth)
+			# print ("The sum is ",  np.sum (predicted_values ))
+			# print("Decision tree predicted values: ", predicted_values)
+			# np.savetxt("predicted_values.txt", predicted_values)
 
 			# plt.title("Accuracy versus Depth", loc='center')
 			# plt.plot(TrainingIterations, color='red')
