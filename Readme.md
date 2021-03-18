@@ -130,7 +130,6 @@ The results are shown in Table and Figure
 
 <details>
 <summary><a name="adaboost"><b style="font-size:20px">
-
 3: Adaboost Algorithm
 </b></a>
 </summary>
