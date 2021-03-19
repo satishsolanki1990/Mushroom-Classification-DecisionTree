@@ -22,9 +22,9 @@ if __name__ == '__main__':
 
 	while(1):
 
-		trainData = prep.fileRead('train.csv')	# Read Training Examples
+		trainData = prep.fileRead('data/train.csv')	# Read Training Examples
 		trainData = prep.changeData(trainData)
-		validData = prep.fileRead('val.csv')	# Read Validation Data
+		validData = prep.fileRead('data/val.csv')	# Read Validation Data
 		validData = prep.changeData(validData)
 		# testData = prep.fileRead('test.csv')
 		# testData = prep.changeData(testData)

@@ -152,9 +152,9 @@ def output(df):
 
 if __name__ == '__main__':
     # read all data
-    train=pd.read_csv('train.csv')
+    train=pd.read_csv('data/train.csv')
 #   test=pd.read_csv('test.csv')
-    val=pd.read_csv('val.csv')
+    val=pd.read_csv('data/val.csv')
     tree=build_tree(train,2)
     count=0
     for i in tree:
